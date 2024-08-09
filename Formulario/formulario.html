@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário de pesquisa de satisfação</title>
+    </head>
+    <body>
+        <h1>Formulário de Pesquisa de Satisfação</h1>
+        <form method="post" action="processar-pesquisa.html">
+            <section>
+                <h2>Dados Pessoais</h2>
+                <p>
+                    <label for="Nome">
+                        Nome: 
+                    </label>
+                    <input type="text" id="Nome">
+                </p>
+                <p>
+                    <label for="E-mail">
+                        E-mail: 
+                    </label>
+                    <input type="email" id="E-mail">
+                </p>
+                <p>
+                    <label for="Telefone">
+                        Telefone: 
+                    </label>
+                    <input type="tel" id="Telefone">
+                </p>
+            </section>
+            <section>
+                <h2>Dados de Pesquisa</h2>
+                <p>
+                    <h4>Como foi seu atendimento?</h4>
+                </p>
+                <p>
+                    (informe de 1 a 5, onde 1 foi muito ruim e 5 foi muito bom)
+                </p>
+                <p>
+                    <input type="radio" id="1" name="atendimento-como">
+                    <label for="1">1</label>
+                    <input type="radio" id="2" name="atendimento-como">
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="atendimento-como">
+                    <label for="3">3</label>
+                    <input type="radio" id="4" name="atendimento-como">
+                    <label for="4">4</label>
+                    <input type="radio" id="5" name="atendimento-como">
+                    <label for="5">5</label>
+                </p>
+                <p>
+                    <h4>Como foi a solução do seu problema?</h4>
+                </p>
+                    <p>
+                        (informe de 1 a 5, onde 1 foi muito ruim e 5 foi muito bom)
+                    </p>
+                    <p>
+                        <input type="radio" id="1" name="atendimento-como">
+                        <label for="1">1</label>
+                        <input type="radio" id="2" name="atendimento-como">
+                        <label for="2">2</label>
+                        <input type="radio" id="3" name="atendimento-como">
+                        <label for="3">3</label>
+                        <input type="radio" id="4" name="atendimento-como">
+                        <label for="4">4</label>
+                        <input type="radio" id="5" name="atendimento-como">
+                        <label for="5">5</label>
+                    </p>
+                    <p>
+                    <label for="departamento"><h4>Qual foi o setor que te atendeu?</h4></label>
+                    <select name="" id="">
+                        <option>Trânsito</option>
+                        <option>Social</option>
+                        <option>Meio Ambiente</option>
+                        <option>Obras</option>
+                        <option>Controle Interno</option>
+                        <option>Cultura</option>
+                    </select>
+                    </p>
+                <P>
+                    <input type="checkbox" id="compartilhar">
+                    <label for="compartilhar">Autorizo o compartilhamento com meus dados</label>          
+                </P>
+            </section>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
